@@ -1,0 +1,96 @@
+body {
+    background-color: #ede7de;
+}
+header {
+    font-family: "Garamond", serif;
+    font-size: 32px;
+    border-bottom: double 15px;
+    padding: 0.5px;
+    text-align: center;
+    font-weight: bold;
+}
+h3, h4 {
+    border:solid 2px;
+    display: inline-block;
+    margin: 0.5px;
+    
+}
+h4 {
+    font-size: 18px;
+} 
+main {
+    border: solid 3px;
+    margin: 10px 1px 10px 1px;
+    text-align: center;
+    display: inline-block;
+    
+}
+main h1, h2 {
+    font-size: 48px;
+    border: solid 2px;
+    margin: 2px;
+    padding: 2px 0px 2px 0px;
+}
+.column>h1,h2 {
+    font-size: 40px;
+}
+.head{
+    font-size: 84px;
+    color: #413b72;
+}
+.better, .worse{
+    text-decoration: underline;
+}
+.worse {
+    animation: worse 20s forwards;
+}
+
+
+@keyframes worse {
+    from {
+        color:black;
+    }
+    to {
+        color: firebrick
+    }
+}
+.secret:hover #invert{
+    filter: invert(100%);
+}
+img {
+    height: 320px;
+    border: solid 6px;
+    padding: 6px 8px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  border: solid 2px;
+}
+h2 + p {
+    font-weight: bold;
+    font-size: 32px;
+}
+p::first-letter {
+    font-size: 32px;
+}
+#fish {
+    height: 120px;
+}
+h5 {
+    font-size:32px;
+}
+.reveal {
+    visibility: hidden;
+    font-size: 12px;
+}
+h5:hover .reveal {
+    visibility: visible;
+}
+#invert:hover {
+    filter: invert(100%);
+}

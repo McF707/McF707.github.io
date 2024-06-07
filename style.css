@@ -1,0 +1,97 @@
+body{
+    background-color: #f2f6ed;
+    background-image: url(important.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-top {
+    
+}
+
+h2, h3, h4, h5, h6{
+    color: #ffbc85; /* Accent */
+}
+
+a{
+    color:inherit;
+}
+
+a:hover{
+    color:#6D7993;;
+}
+
+.home{
+    background-color: #23395e;
+    color: #f2f6ed;
+    margin: 2px;
+}
+
+main.col-md-2{
+    height:200px;
+    padding:2em;
+    margin-top:2em;
+}
+
+.front-nav {
+    background-color: #ffbc85;
+    
+}
+
+.display-1 {
+    text-decoration: underline;
+}
+/* Homepage styles*/
+.cover{
+    height:300px;
+    margin-top:25%;
+   
+}
+header{
+    background-color: #23395e;
+    color:white;
+    padding:4em;
+    margin:2em;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.project {
+    background-color: #f78652;
+    color: #f2f6ed;
+}
+
+p.contact {
+    text-align:center;
+    color: #f2f6ed;
+}
+.contact-items {
+    
+}
+
+p.about-me {
+    color: #f2f6ed;
+    background-color: #f78652;
+    font-size: 18px;
+    padding: 20px;
+}
+
+div > .carousel { 
+    padding:50px;
+    display: block;
+    margin:auto;
+}
+.carousel-inner {
+    height: 400px;
+    width: 800px;
+}
+
+.carousel-inner > .carousel-item > img {
+    
+    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 800px; 
+}
